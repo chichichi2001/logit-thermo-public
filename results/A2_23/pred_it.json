@@ -1,0 +1,161 @@
+{
+ "models": {
+  "qwen2.5-1.5b-it": {
+   "temps1": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+   ],
+   "fit_all": {
+    "ok": true,
+    "Tm": 0.6326403550201313,
+    "use_idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   "T_all": 0.6326403550201313,
+   "window": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+   ],
+   "Tm0": 0.6478501553732228,
+   "a": -2.5826286483308145,
+   "b": 1.6731563710924544,
+   "dH_cal": 0.6738180053533627,
+   "dm": 0.77897645971599,
+   "g_T": [
+    2.268115067779764,
+    0.8684513553393267,
+    0.6636301112185291,
+    2.329036099525681,
+    0.67712680701124,
+    2.075219636410908,
+    1.244893657197746
+   ],
+   "gbar": 1.4466389620690279,
+   "s_clapeyron": 0.7489559739420055,
+   "use_idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "target": {
+    "dT": -0.1,
+    "Tstar": 0.5478501553732228,
+    "hstar": -0.3258667260855919,
+    "grid": [
+     0.4,
+     0.45,
+     0.5,
+     0.55,
+     0.6,
+     0.65,
+     0.7
+    ],
+    "r_clapeyron": 2.4405983121072725
+   },
+   "name": "qwen2.5-1.5b-it",
+   "ok": true,
+   "why": null
+  },
+  "smollm2-1.7b-it": {
+   "temps1": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+   ],
+   "fit_all": {
+    "ok": true,
+    "Tm": 0.1565141507038074,
+    "use_idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     13
+    ]
+   },
+   "T_all": 0.1565141507038074,
+   "name": "smollm2-1.7b-it",
+   "ok": false,
+   "why": "仮の融点 0.157 が (0.3, 0.8) の外"
+  }
+ },
+ "sha256": {
+  "scripts/a2_23_analyze.py": "b3fae14122b9faae67441fa71dc6bb1bbf420a460d189a30904963a62e5ec843",
+  "scripts/a2_23_run.py": "cefb865a25b4ab2aee75176a64a68b1f07d8135b81ce280f1b7ae4a4c976da92",
+  "scripts/a2_23_collect.py": "f881ad8ebeaeafd43f8089fa717b4f493a620eaf8c520866329543ccde9b2a74",
+  "scripts/a2_22_analyze.py": "57e6da09fdb88ac9e55dbbefe2cc997c3c09d6da4890aab7254f0bbbac5310bd",
+  "scripts/a2_22_run.py": "d90c4cac9fae7e80a381d37c8ddfed2622c41b550158d9ae2d0cc42756ae1ab1",
+  "scripts/a2_21_analyze.py": "f3ca3042be24c747a99d3181a73a57492baf197737b21dfcef76d91c2d7a2591",
+  "scripts/a2_21_run.py": "69ec1feb93705e1fd8bd92d4433c19e12b60805a8277d7d89cca92aac5bfc06c",
+  "scripts/a2_explore_g2.py": "1f5c4a37e6bb129c700ad234e7bb5faa8bf62f2e2cdb486a7db99e14fb79c546",
+  "scripts/a2_8_vh.py": "06a93c4eec9f3e770ca9e2f3f791a94b37153c908becd0f83d825acfbd11bacd",
+  "scripts/a2_explore_onset.py": "0b39f997b72f33d3903df735b9e6525b9786cc714e4457e4442a2d6db1c803e9",
+  "scripts/a2_16_run.py": "2a7014004453d031ee113cef9c6620a5c2da0e680c26a2f7322d8db88a142827",
+  "scripts/a2_18_run.py": "5bb1964b8411ce96561f2fc005237a090dd5f3acd566ec93557a34057baa0850",
+  "scripts/a2_20_run.py": "0cabdb184af361ec93f6cc23b47de50107459f49aba7a3ee15fb4eff31136fd5",
+  "scripts/a2_20_predict.py": "89bd57664359aaf1ce50f287f13f39bd524d37bf4bdd16c350429a98331d0ab3",
+  "scripts/a2_20_analyze.py": "16bb40e8a0a2f26460532b32cf2f52b1d586b60e5dd2689c8310c5bc41f77359",
+  "scripts/a2_20_collect.py": "29d5dbd7a05620433f5bf0d1ad9dc3c9e130f89d8ed66622139149d51fea99d6",
+  "scripts/a2_19_analyze.py": "66db0e8bf0aa6a437b9251b3f66c797c1ee304136f9daeda85191b95666b2265",
+  "scripts/a2_18_analyze.py": "5b55c3df8e84c2104ec5ea1a83f48cb13f149cd1b280a97832a413b4b79cdd0e",
+  "scripts/a2_18_predict.py": "72b2ed5d617b54241088289fbc67444862f6d7bca679a5871ef18a24ce34f681",
+  "scripts/a2_16_analyze.py": "7c5a60c2f8077d2d0e4051a65ef5b075ac24517d34a5069aa51271a0b73faf0f"
+ }
+}

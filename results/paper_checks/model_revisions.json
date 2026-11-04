@@ -1,0 +1,44 @@
+{
+ "note": "Hugging Face API (huggingface.co/api/models/<id>), fetched 2026-11-04 JST via WebFetch. sha = latest commit on main; lastModified = date of that commit. All predate the runs (2026-10/11), so the runs loaded these revisions. Revisions were not pinned in code.",
+ "EleutherAI/pythia-410m": {
+  "sha": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f",
+  "lastModified": "2023-07-09T16:01:42Z"
+ },
+ "EleutherAI/pythia-1.4b": {
+  "sha": "fedc38a16eea3bd36a96b906d78d11d2ce18ed79",
+  "lastModified": "2023-07-09T16:01:57Z"
+ },
+ "EleutherAI/gpt-neo-1.3B": {
+  "sha": "dbe59a7f4a88d01d1ba9798d78dbe3fe038792c8",
+  "lastModified": "2024-01-31T20:30:21Z"
+ },
+ "HuggingFaceTB/SmolLM2-1.7B": {
+  "sha": "effd688a12921b4cc83e3312b6feb579f70f9c71",
+  "lastModified": "2025-02-06T10:31:23Z"
+ },
+ "Qwen/Qwen2.5-1.5B": {
+  "sha": "8faed761d45a263340a0528343f099c05c9a4323",
+  "lastModified": "2024-10-08T10:56:50Z"
+ },
+ "openai-community/gpt2-xl": {
+  "sha": "15ea56dee5df4983c59b2538573817e1667135e2",
+  "lastModified": "2024-02-19T12:39:12Z"
+ },
+ "bigscience/bloom-1b1": {
+  "sha": "eb3dd7399312f5f94fd13f41d2f318117d3eb1e4",
+  "lastModified": "2023-09-26T09:16:38Z"
+ },
+ "Qwen/Qwen2.5-7B": {
+  "sha": "d149729398750b98c0af14eb82c78cfe92750796",
+  "lastModified": "2024-09-25T12:32:32Z"
+ },
+ "mistralai/Mistral-7B-v0.3": {
+  "sha": "caa1feb0e54d415e2df31207e5f4e273e33509b1",
+  "lastModified": "2025-07-24T16:42:40Z"
+ },
+ "generation_seconds_summed": {
+  "A2-19 (replication, 7 smaller models, L4)": 80239,
+  "A2-20 stage 2 (two 7B models, A100)": 21439,
+  "note": "sum of the 'seconds' field over the npz files; approximately 22.3 and 6.0 GPU-hours"
+ }
+}

@@ -1,0 +1,23 @@
+theta*(K=1000, V=151665) = 0.133450
+case                           a_fit     R2    T_on  T_on/a
+Zipf a=0.7                     0.700  1.000   0.700   1.000
+Zipf a=1.0                     1.000  1.000   1.000   1.000
+Zipf a=1.5                     1.500  1.000   1.500   1.000
+Zipf a=2.5                     2.500  1.000   2.500   1.000
+Gauss sigma=1.5                0.608  0.995   0.473   0.779
+Gauss sigma=2.5                1.000  0.995   0.811   0.810
+Gauss sigma=3.5                1.400  0.993   1.031   0.736
+Zipf a=1.0 + spiky head        1.000  1.000   1.997   1.997
+Zipf a=1.5 + spiky head        1.500  1.000   2.454   1.636
+
+theta_tail*(K=1000, head<100) = 0.432732
+case                           a_loc  Ton_tl   ratio
+Zipf a=0.7                     0.700   0.700   1.000
+Zipf a=1.0                     1.000   1.000   1.000
+Zipf a=1.5                     1.500   1.500   1.000
+Zipf a=2.5                     2.500   2.500   1.000
+Gauss sigma=1.5                0.558   0.511   0.917
+Gauss sigma=2.5                0.922   0.863   0.936
+Gauss sigma=3.5                1.259   1.144   0.909
+Zipf a=1.0 + spiky head        1.000   1.000   1.000
+Zipf a=1.5 + spiky head        1.500   1.500   1.000

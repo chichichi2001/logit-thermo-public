@@ -1,0 +1,6 @@
+case                       sigma_rob   a_loc      g      c
+Gauss sigma=2                  1.993   0.716   1.00   1.32
+Gauss sigma=3                  2.995   1.089   1.01   1.38
+Zipf a=1                       0.814   1.000   3.41   1.00
+Zipf a=1.5                     1.222   1.500   3.41   1.00
+Gauss sigma=3 + 20 spikes      2.991   1.109   1.03   1.23
