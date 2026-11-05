@@ -1,0 +1,3095 @@
+{
+ "source": "paper/review_copy_v05.md",
+ "parts": {
+  "abstract": {
+   "words": 263,
+   "sentences": 12,
+   "mean_len": 21.9,
+   "sd_len": 7.6,
+   "cv_len": 0.34,
+   "nominalizations_per_1000": 45.6,
+   "top_sentence_starts": [
+    [
+     "The",
+     3
+    ],
+    [
+     "In",
+     2
+    ],
+    [
+     "A",
+     1
+    ],
+    [
+     "We",
+     1
+    ],
+    [
+     "This",
+     1
+    ],
+    [
+     "For",
+     1
+    ],
+    [
+     "Here",
+     1
+    ],
+    [
+     "Differences",
+     1
+    ]
+   ]
+  },
+  "main": {
+   "words": 3986,
+   "sentences": 198,
+   "mean_len": 20.1,
+   "sd_len": 8.4,
+   "cv_len": 0.42,
+   "nominalizations_per_1000": 31.6,
+   "top_sentence_starts": [
+    [
+     "The",
+     40
+    ],
+    [
+     "We",
+     15
+    ],
+    [
+     "For",
+     13
+    ],
+    [
+     "A",
+     10
+    ],
+    [
+     "In",
+     9
+    ],
+    [
+     "It",
+     6
+    ],
+    [
+     "Each",
+     6
+    ],
+    [
+     "This",
+     5
+    ]
+   ]
+  },
+  "appendix": {
+   "words": 8862,
+   "sentences": 459,
+   "mean_len": 19.3,
+   "sd_len": 9.7,
+   "cv_len": 0.5,
+   "nominalizations_per_1000": 29.0,
+   "top_sentence_starts": [
+    [
+     "The",
+     122
+    ],
+    [
+     "For",
+     33
+    ],
+    [
+     "We",
+     30
+    ],
+    [
+     "It",
+     17
+    ],
+    [
+     "A",
+     16
+    ],
+    [
+     "This",
+     16
+    ],
+    [
+     "At",
+     11
+    ],
+    [
+     "With",
+     11
+    ]
+   ]
+  }
+ },
+ "summary": {
+  "L4 本文の数字（1 桁の整数は除く）": {
+   "abstract": {
+    "n": 2,
+    "per_1000": 7.6
+   },
+   "main": {
+    "n": 41,
+    "per_1000": 10.29
+   },
+   "appendix": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "top": [
+    [
+     "99%",
+     2
+    ],
+    [
+     "120",
+     2
+    ],
+    [
+     "1.04 0.8 1.25",
+     1
+    ],
+    [
+     "0.4 7.6",
+     1
+    ],
+    [
+     "0.19 0.90",
+     1
+    ],
+    [
+     "64 512",
+     1
+    ],
+    [
+     "32 16 15",
+     1
+    ],
+    [
+     "15",
+     1
+    ],
+    [
+     "32",
+     1
+    ],
+    [
+     "0.44 0.66",
+     1
+    ]
+   ]
+  },
+  "L4 ぼかし語": {
+   "abstract": {
+    "n": 2,
+    "per_1000": 7.6
+   },
+   "main": {
+    "n": 19,
+    "per_1000": 4.77
+   },
+   "appendix": {
+    "n": 19,
+    "per_1000": 2.14
+   },
+   "top": [
+    [
+     "could",
+     15
+    ],
+    [
+     "slightly",
+     10
+    ],
+    [
+     "likely",
+     5
+    ],
+    [
+     "may",
+     5
+    ],
+    [
+     "roughly",
+     2
+    ],
+    [
+     "appear",
+     1
+    ],
+    [
+     "suggests",
+     1
+    ],
+    [
+     "largely",
+     1
+    ]
+   ]
+  },
+  "L5 only (強調)": {
+   "abstract": {
+    "n": 1,
+    "per_1000": 3.8
+   },
+   "main": {
+    "n": 15,
+    "per_1000": 3.76
+   },
+   "appendix": {
+    "n": 21,
+    "per_1000": 2.37
+   },
+   "top": [
+    [
+     "only",
+     37
+    ]
+   ]
+  },
+  "L2 文中のコロン（図表の説明と太字の見出しは除く）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 5,
+    "per_1000": 1.25
+   },
+   "appendix": {
+    "n": 26,
+    "per_1000": 2.93
+   },
+   "top": [
+    [
+     ":",
+     31
+    ]
+   ]
+  },
+  "L2 否定と対比（not X but Y / rather than）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 6,
+    "per_1000": 1.51
+   },
+   "appendix": {
+    "n": 14,
+    "per_1000": 1.58
+   },
+   "top": [
+    [
+     "instead of",
+     6
+    ],
+    [
+     "rather than",
+     3
+    ],
+    [
+     ", not a",
+     2
+    ],
+    [
+     ", not exp",
+     1
+    ],
+    [
+     ", not distinct",
+     1
+    ],
+    [
+     ", not on",
+     1
+    ],
+    [
+     ", not models",
+     1
+    ],
+    [
+     ", not line",
+     1
+    ],
+    [
+     ", not by",
+     1
+    ],
+    [
+     ", not for",
+     1
+    ]
+   ]
+  },
+  "L5 exactly": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 2,
+    "per_1000": 0.5
+   },
+   "appendix": {
+    "n": 8,
+    "per_1000": 0.9
+   },
+   "top": [
+    [
+     "exactly",
+     10
+    ]
+   ]
+  },
+  "L3 35 語を超える文": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 7,
+    "per_1000": 1.76
+   },
+   "appendix": {
+    "n": 27,
+    "per_1000": 3.05
+   },
+   "top": [
+    [
+     "36 語",
+     8
+    ],
+    [
+     "38 語",
+     4
+    ],
+    [
+     "37 語",
+     4
+    ],
+    [
+     "43 語",
+     3
+    ],
+    [
+     "45 語",
+     3
+    ],
+    [
+     "54 語",
+     2
+    ],
+    [
+     "39 語",
+     2
+    ],
+    [
+     "42 語",
+     2
+    ],
+    [
+     "50 語",
+     1
+    ],
+    [
+     "47 語",
+     1
+    ]
+   ]
+  },
+  "L2 文末につく -ing の句": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 2,
+    "per_1000": 0.5
+   },
+   "appendix": {
+    "n": 5,
+    "per_1000": 0.56
+   },
+   "top": [
+    [
+     ", adjusting",
+     1
+    ],
+    [
+     ", normalizing",
+     1
+    ],
+    [
+     ", overlapping",
+     1
+    ],
+    [
+     ", switching",
+     1
+    ],
+    [
+     ", doubling",
+     1
+    ],
+    [
+     ", keeping",
+     1
+    ],
+    [
+     ", adding",
+     1
+    ]
+   ]
+  },
+  "L5 We read this as / we take": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 4,
+    "per_1000": 1.0
+   },
+   "appendix": {
+    "n": 2,
+    "per_1000": 0.23
+   },
+   "top": [
+    [
+     "we call",
+     6
+    ]
+   ]
+  },
+  "L5 thus/therefore/so（まとめ）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 5,
+    "per_1000": 1.25
+   },
+   "appendix": {
+    "n": 19,
+    "per_1000": 2.14
+   },
+   "top": [
+    [
+     "therefore",
+     12
+    ],
+    [
+     "thus",
+     8
+    ],
+    [
+     "hence",
+     4
+    ]
+   ]
+  },
+  "L2 三つ並べ（A, B and C）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 2,
+    "per_1000": 0.5
+   },
+   "appendix": {
+    "n": 1,
+    "per_1000": 0.11
+   },
+   "top": [
+    [
+     "step, the entry rate, and switches",
+     1
+    ],
+    [
+     "entries, exits, and ordinary",
+     1
+    ],
+    [
+     "articles, as in the tests, and the",
+     1
+    ]
+   ]
+  },
+  "L3 6 語以下の短い文": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 8,
+    "per_1000": 2.01
+   },
+   "appendix": {
+    "n": 19,
+    "per_1000": 2.14
+   },
+   "top": [
+    [
+     "6 語",
+     11
+    ],
+    [
+     "5 語",
+     7
+    ],
+    [
+     "4 語",
+     5
+    ],
+    [
+     "1 語",
+     3
+    ],
+    [
+     "3 語",
+     1
+    ]
+   ]
+  },
+  "L1 Kobak の語": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 7,
+    "per_1000": 1.76
+   },
+   "appendix": {
+    "n": 29,
+    "per_1000": 3.27
+   },
+   "top": [
+    [
+     "within",
+     28
+    ],
+    [
+     "across",
+     8
+    ]
+   ]
+  },
+  "L5 nevertheless/however": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 3,
+    "per_1000": 0.75
+   },
+   "appendix": {
+    "n": 10,
+    "per_1000": 1.13
+   },
+   "top": [
+    [
+     "instead",
+     11
+    ],
+    [
+     "however",
+     1
+    ],
+    [
+     "yet",
+     1
+    ]
+   ]
+  },
+  "L2 セミコロン（文献・括弧・図表の説明の中は除く）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 6,
+    "per_1000": 1.51
+   },
+   "appendix": {
+    "n": 28,
+    "per_1000": 3.16
+   },
+   "top": [
+    [
+     ";",
+     34
+    ]
+   ]
+  },
+  "L2 from X to Y（数でない）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "appendix": {
+    "n": 1,
+    "per_1000": 0.11
+   },
+   "top": [
+    [
+     "from ordinary to repetitive",
+     1
+    ]
+   ]
+  },
+  "L3 まとめの文頭": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "appendix": {
+    "n": 3,
+    "per_1000": 0.34
+   },
+   "top": [
+    [
+     "hence",
+     2
+    ],
+    [
+     "thus",
+     1
+    ]
+   ]
+  },
+  "L5 both ... and": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "appendix": {
+    "n": 6,
+    "per_1000": 0.68
+   },
+   "top": [
+    [
+     "both the realized and",
+     1
+    ],
+    [
+     "both for all continuations and",
+     1
+    ],
+    [
+     "both numerator and",
+     1
+    ],
+    [
+     "both arms, and",
+     1
+    ],
+    [
+     "both penalties and",
+     1
+    ],
+    [
+     "both responses that enter the model are step-wise, and",
+     1
+    ]
+   ]
+  },
+  "L5 this is/that is（言いかえ）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "appendix": {
+    "n": 1,
+    "per_1000": 0.11
+   },
+   "top": [
+    [
+     "this is why",
+     1
+    ]
+   ]
+  },
+  "L5 what X is Y（擬似分裂文）": {
+   "abstract": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "main": {
+    "n": 0,
+    "per_1000": 0.0
+   },
+   "appendix": {
+    "n": 1,
+    "per_1000": 0.11
+   },
+   "top": [
+    [
+     "what we recorded before each test was",
+     1
+    ]
+   ]
+  }
+ },
+ "hits": {
+  "L4 本文の数字（1 桁の整数は除く）": [
+   {
+    "sec": "Abstract",
+    "part": "abstract",
+    "frag": "1.04 0.8 1.25",
+    "sentence": "The median was 1.04, inside the registered range of 0.8 to 1.25."
+   },
+   {
+    "sec": "Abstract",
+    "part": "abstract",
+    "frag": "99%",
+    "sentence": "In the same runs, the compensator Q cancels about 99% of the response to reweighting whole texts."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "0.4 7.6",
+    "sentence": "We sampled continuations of news articles published after the models were released, from nine open base models with 0.4 to 7.6 billion parameters (Table I; Appendix A)."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "0.19 0.90",
+    "sentence": "Sampling was plain softmax at temperatures between 0.19 and 0.90."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "64 512",
+    "sentence": "Each prompt was the first 64 tokens of an article, and the model generated four continuations of 512 tokens from it."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "32 16 15",
+    "sentence": "We label each step as repetitive or ordinary from the fraction of repeats in a 32-token window around the step, 16 tokens before it and 15 after."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "15",
+    "sentence": "Each label therefore uses up to 15 later tokens."
+   },
+   {
+    "sec": "A. Two states and the crossover temperature",
+    "part": "main",
+    "frag": "32",
+    "sentence": "There, the fraction of repeats in a 32-token window has a high peak near zero, a narrow peak at exactly one and a shallow trough in between (Fig. 1b)."
+   },
+   {
+    "sec": "A. Two states and the crossover temperature",
+    "part": "main",
+    "frag": "0.44 0.66",
+    "sentence": "The crossover temperature lies between 0.44 and 0.66 for the nine models (Fig. 1c; Table I)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "40 0.10",
+    "sentence": "Because the derivative of Sec. III A needs only unpenalized samples, unpenalized runs on 40 design articles suffice to predict the penalty h* that should lower T_× by 0.10."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "0.10",
+    "sentence": "We call T* = T_× − 0.10 the design temperature."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "0.8 1.25",
+    "sentence": "We required the bootstrap interval of the median ratio over the seven smaller models, or of the mean over the two larger ones, to lie between 0.8 and 1.25."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "40 1.25",
+    "sentence": "The first test, on the 40 articles from which h* had been computed, was inconclusive: its intervals at h* and at 2h* both reached just above 1.25 (Appendix F3)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "120",
+    "sentence": "We then committed in advance to a single replication on 120 new articles, with the same rule and statistic."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.04 95% 0.98 1.15",
+    "sentence": "Its median ratio was 1.04 (95% interval 0.98–1.15), inside the range (Fig. 2; Table I)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "0.96 0.84 1.11",
+    "sentence": "A separate test of two 7-billion-parameter models gave a mean ratio of 0.96 (0.84–1.11)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "160 1.09 0.98 1.15",
+    "sentence": "Pooling the first test and the replication, 160 articles, gave 1.09 (0.98–1.15)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "0.01",
+    "sentence": "For comparison, the tilted response of Sec. IV C would give a ratio of about 0.01."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "12%",
+    "sentence": "A standard deviation of the true ratios across models above about 12% was excluded (Appendix C)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.4",
+    "sentence": "Nor were the per-model departures of the first test reproduced in the replication, except for Pythia-1.4B."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.05 0.93 1.20",
+    "sentence": "The median ratio was 1.05 (0.93–1.20) for the smaller models, inside the range, while the test on the larger models did not decide."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "64",
+    "sentence": "For the fraction in the last 64 steps alone the test was undecided (Appendix F4)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.01",
+    "sentence": "At the predicted divisors the median ratio over seven models was 1.01, with its interval inside the range."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.1 1.3",
+    "sentence": "The confirmed divisors reach only the lower end of the values of 1.1 to 1.3 common in practice."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.3",
+    "sentence": "With T_× located by a straight-line fit of ln K against 1/T, as in the design, its median was 1.3 times the intended shift in the smaller models."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "0.5 2.4",
+    "sentence": "Individual models, however, ranged from 0.5 to 2.4 times the intended shift, and no per-model interval lay inside the range (Appendix F6)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "1.6 2.4",
+    "sentence": "For GPT-2-XL, which overshot most, the measured slope times h* implied 1.6 times the intended shift, against 2.4 realized."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "0.7% 1.5%",
+    "sentence": "For the penalty, the step-wise response of ln K was between 0.7% and 1.5% of the tilted response (s_pen)."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "99%",
+    "sentence": "For ln K, the compensator term thus cancels about 99% of the tilted term."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "90 146 0.9 1.5",
+    "sentence": "With k_01 and k_10 the entry and exit rates per step, the relaxation time τ = 1/(k_01 + k_10) was 90 to 146 steps, and s_pen τ lay between 0.9 and 1.5 for the nine models (Table II)."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "0.3",
+    "sentence": "The criterion we had fixed beforehand, a coefficient of variation of s_pen τ below 0.3, would have been met even if the two were unrelated (Appendix F8). τ also depends on the labeling, and the states do not form a stati"
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "256 1.8%",
+    "sentence": "For the first 256 tokens s_pen was 1.8%, consistent with fewer later steps following each choice (Appendices B and F8)."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "0.9",
+    "sentence": "Steps where the model chooses a candidate with probability q_t above 0.9 make up more than four-fifths of the steps with repeat candidates but carry only about a fifth of the predicted response."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "0.1 0.9",
+    "sentence": "Steps with q_t between 0.1 and 0.9 make up about a tenth of those steps but carry about four-fifths of the response, close to their share of the variance (Fig. 3a)."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "0.1 0.9 0.96 0.91 0.98 0.8 1.25",
+    "sentence": "For the steps with q_t between 0.1 and 0.9, the share of the response divided by the share of the variance had a median of 0.96 (0.91–0.98), inside the range 0.8–1.25 fixed beforehand but slightly below one (exploratory;"
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "0.67 2.1",
+    "sentence": "The first-order prediction held, for the median over models, at penalties with |h*|/T* between 0.67 and 2.1."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "480",
+    "sentence": "Reweighting the 480 unpenalized continuations at each temperature by their exact probability ratios could not determine the change at these penalties."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "18 1.13 0.84 2.08",
+    "sentence": "Only 5 to 18 effective samples remained, and the median ratio of the realized change to the reweighted estimate was 1.13 (0.84–2.08), with the wrong sign for GPT-2-XL (Appendix D)."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "0.69 0.64 0.72",
+    "sentence": "Judged by the same statistic as the first-order prediction, with −log p_t at T = 1 as the energy, its median ratio was 0.69 (0.64–0.72)."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "7.6",
+    "sentence": "All prospective tests used English news articles, base models of up to 7.6 billion parameters and one family of labelings, with sampling rather than greedy or beam decoding, to which the score does not apply."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "512",
+    "sentence": "Texts had 512 tokens, without truncation and with the end-of-sequence token masked; runs on novels, scientific papers and code are in Appendix F9."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "1.09",
+    "sentence": "Most point estimates lay slightly above one, 1.09 when the first test and the replication were pooled."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "120",
+    "sentence": "The additive, multiplicative and larger-model tests share the same 120 articles, and the bootstrap intervals resample articles, not models."
+   }
+  ],
+  "L4 ぼかし語": [
+   {
+    "sec": "Abstract",
+    "part": "abstract",
+    "frag": "could",
+    "sentence": "Differences between the models could not be distinguished from sampling noise."
+   },
+   {
+    "sec": "Abstract",
+    "part": "abstract",
+    "frag": "could",
+    "sentence": "Reweighting the same unpenalized samples by their exact probability ratios could not determine the change, because the variance of the log-weights grows with the length of the text."
+   },
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "likely",
+    "sentence": "Repetition reinforces itself: the more often a phrase has been repeated, the more likely it is to be repeated again [2206.02369]."
+   },
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "appear",
+    "sentence": "In small models, repetitive structure has been reported to appear only in a low-temperature ordered phase [2406.05335; 2503.06330]."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "could",
+    "sentence": "End-of-sequence and padding tokens were excluded, so that no continuation could end early, and all probabilities below, including the candidate probability q_t defined next, refer to this masked distribution."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "slightly",
+    "sentence": "The penalty acts on a slightly broader set."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "likely",
+    "sentence": "Exponential tilting also rewards each choice, or for h < 0 penalizes it, for the candidates it makes likely to be chosen later."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "likely",
+    "sentence": "Entering a repetitive stretch makes many future repeats likely, so this is where we expect the two to differ most."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "roughly",
+    "sentence": "Penalizing or favoring the repeat candidates moved T_× in the direction of h, roughly linearly (Fig. S1)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "could",
+    "sentence": "A ḡ averaged over the other six models also gave a median inside the range, and the accuracy per model of the two could not be distinguished."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "could",
+    "sentence": "For two instruction-tuned models the test was inconclusive for one and could not be run for the other."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "likely",
+    "sentence": "Nearly all of the covariance of the switching counts with N comes through the candidates that each choice makes likely to be chosen later, and Q carries the same expected later choices (Sec. III B)."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "likely",
+    "sentence": "A whole-text reweighting credits each choice with the later choices it makes likely, which may extend over about one relaxation time, while the step-wise penalty keeps only the choice itself."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "may",
+    "sentence": "A whole-text reweighting credits each choice with the later choices it makes likely, which may extend over about one relaxation time, while the step-wise penalty keeps only the choice itself."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "slightly",
+    "sentence": "For the steps with q_t between 0.1 and 0.9, the share of the response divided by the share of the variance had a median of 0.96 (0.91–0.98), inside the range 0.8–1.25 fixed beforehand but slightly below one (exploratory;"
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "slightly",
+    "sentence": "It put slightly more of the response on the exit rate than was measured, and the interval of the difference excluded zero for two of the nine models (Appendix F10)."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "could",
+    "sentence": "The median rule could not tell the model's own derivative from one averaged over other models."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "could",
+    "sentence": "Reweighting the 480 unpenalized continuations at each temperature by their exact probability ratios could not determine the change at these penalties."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "slightly",
+    "sentence": "The variance of the log-weight grows with the length of the text, as (h/T)² Σ_t q_t(1 − q_t) to second order. ln K is instead built from counts summed over many steps and texts, each of which a single choice changes only"
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "slightly",
+    "sentence": "Most point estimates lay slightly above one, 1.09 when the first test and the replication were pooled."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "could",
+    "sentence": "The second-order term that could explain this can be estimated from the same samples, but it was not determined at this sample size (Appendix F3)."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "It was undecided otherwise, or if the statistic could not be computed in more than 10% of resamples."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "The decision used the median over the seven smaller models so that no single model could decide it; for the two larger models we used the mean."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "slightly",
+    "sentence": "Longer windows gave slightly smaller ratios."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "slightly",
+    "sentence": "Its point estimates equal those of the main text; its intervals for ρ differ slightly from Table I because this analysis used a different bootstrap seed, whereas ρ_eq comes from the same analysis as Appendix H."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "may",
+    "sentence": "Stretches may become more stable as they last."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "may",
+    "sentence": "Texts may differ in how easily they leave repetition, so that hard-to-leave texts fill the long bin."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "may",
+    "sentence": "Position may also matter: the mean position of the steps at risk was 302–336 in the shorter bin and 363–386 in the longer one, where K is larger."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "roughly",
+    "sentence": "Per model g₂/g ranged from −1.0 to +4.8, changed sign between the first test and the replication for some models, and in bootstrap resamples of five replication models its interval spanned roughly −2.5 to +3."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "slightly",
+    "sentence": "An exactly solvable Markov model of copying, fitted earlier to two other language models, gave g₂/g of −0.06 to −0.13, which would raise the first-order ratio by a few percent at these penalties; this is a candidate expl"
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "suggests",
+    "sentence": "The divisors of 1.1–1.3 common in practice correspond, for these six models, to 1.8 to 14 times the predicted ln θ*; CTRL suggests about 1.2 [1909.05858]."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "The coefficient of variation of s_pen alone was 0.16 and that of τ 0.09, so the criterion would have been met even for unrelated values; it could not discriminate, and we do not use it as support."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "may",
+    "sentence": "The prompts were 40 arXiv papers from April and May 2025, 35 code files from December 2024 to June 2025, and 40 English novels from Project Gutenberg."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "Its rise of T_× also could not be separated from the effect of the labeling alone."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "Code could not be measured: in all four models the unpenalized T_× lay between 1.2 and 1.7, far above the sampled range."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "First, the test sums the realized and predicted changes over temperatures, so errors at single temperatures could cancel."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "slightly",
+    "sentence": "The median difference over the smaller models was −0.04 (−0.11 to −0.002), so the identity put slightly more of the response on the exit rate; for the larger models the mean was −0.03 (−0.11 to 0.05)."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "could",
+    "sentence": "The choice of usable temperatures therefore did not affect the result, and the rule fixed beforehand recorded this question as undecided because no alternative rule could be tested."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "largely",
+    "sentence": "The factors show why the error is not a factor of 100: both responses that enter the model are step-wise, and their compensators largely cancel."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "slightly",
+    "sentence": "The penalty is usually cancelled slightly more, s_pen/s_temp = 0.47–0.87 except for GPT-2-XL (1.04), and κ was within 10% of one except for the two Qwen models."
+   }
+  ],
+  "L5 only (強調)": [
+   {
+    "sec": "Abstract",
+    "part": "abstract",
+    "frag": "only",
+    "sentence": "The widely used multiplicative penalty followed the prediction only at the weakest strengths common in practice, and the temperature that the penalties were designed to move was not controlled model by model."
+   },
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "only",
+    "sentence": "In a production setting such a penalty removed only some kinds of repetition [2512.04419], and penalties derived from a model of expected frequencies have also been proposed [2607.22694]."
+   },
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "only",
+    "sentence": "In small models, repetitive structure has been reported to appear only in a low-temperature ordered phase [2406.05335; 2503.06330]."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "only",
+    "sentence": "An analysis uses a temperature only if both kinds of switch occurred there at least ten times in every arm being compared."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "only",
+    "sentence": "T_× depends on the labeling and on the length of the continuation, so we compare it only within a fixed labeling and length."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "Because the derivative of Sec. III A needs only unpenalized samples, unpenalized runs on 40 design articles suffice to predict the penalty h* that should lower T_× by 0.10."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "Of the two factors of the prediction, only h* was fixed beforehand, while g came from the unpenalized runs of the same test."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "The confirmed divisors reach only the lower end of the values of 1.1 to 1.3 common in practice."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "For the first test only the statistics are shown, for h* and 2h* (per-model values in Appendix F3)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "Design-only: the same realized change divided by the prediction made at design time (exploratory; intervals resample the design and the test articles)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "only",
+    "sentence": "The lower ends shown as 0.80 are 0.796 (Qwen2.5-1.5B, ratio) and 0.799 (Pythia-410M, design-only), below 0.8."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "only",
+    "sentence": "A whole-text reweighting credits each choice with the later choices it makes likely, which may extend over about one relaxation time, while the step-wise penalty keeps only the choice itself."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "only",
+    "sentence": "Steps where the model chooses a candidate with probability q_t above 0.9 make up more than four-fifths of the steps with repeat candidates but carry only about a fifth of the predicted response."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "only",
+    "sentence": "The variance of the log-weight grows with the length of the text, as (h/T)² Σ_t q_t(1 − q_t) to second order. ln K is instead built from counts summed over many steps and texts, each of which a single choice changes only"
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "only",
+    "sentence": "We tested only the two repetition penalties, without truncation."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "only",
+    "sentence": "The widely used presence and frequency penalties were not tested, and the multiplicative penalty was confirmed only at the lowest strengths used in practice."
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The prompt was the first 64 tokens of the cleaned article in each model's own tokenizer, with a beginning-of-sequence token only where the tokenizer adds one by default."
+   },
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "A temperature was used only if it had at least ten entries and ten exits, and a fit needed at least three usable temperatures."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "A model was dropped if fewer than two temperatures were usable, and the median was computed only if at most two of the seven models were dropped."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "Per-model departures were also compared between the first test and the replication, which used different articles: the difference in ln ρ excluded zero only for Pythia-1.4B, +0.32 (0.05–0.56)."
+   },
+   {
+    "sec": "Compute",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The prediction itself needs only the unpenalized runs and a few minutes of CPU time."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "Middle/side: the middle per bin over the smaller side, switching continuations only; the bimodality criterion was a value below 0.2."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "A model was used only if each bin had at least ten exits."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The difference between the medians at 2h* and at h* was −0.07 (−0.12 to 0.14); per model it excluded zero only for GPT-Neo-1.3B, +0.14 (0.04–0.24), and GPT-2-XL, +0.15 (0.005–0.47) (exploratory, record). **Second-order t"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "In the prospective tests only h* was fixed in advance, and the predicted change h* g(T) used g from the unpenalized arm of the same test."
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "Individual models departed more, and only for GPT-2-XL, 1.29 (1.05–1.67), did the interval exclude one."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "GPT-Neo-1.3B was therefore tested at k = 2 only, and every decision used the other six models."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "At k = 8 the penalty suppressed repetition so strongly that Pythia-410M kept only one usable temperature and dropped out."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "Its point estimate was the only one well above one, but its interval reached into the range, so the rule did not call it larger than predicted."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "For shorter texts we recomputed the repeat marks, states, counts, N, Q and usable temperatures from the first L′ steps only."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The rank correlation between s_pen and 1/τ over the same models was only 0.11, so the reading fixes the size of s_pen, not its order across models."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "L′: only the first L′ generated tokens."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "Because each step's expectation is subtracted, adding to U_t any constant that depends only on the history, for example replacing U_t by −z_t, leaves this score unchanged."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The prediction is right only if κ s_pen = s_temp. κ compares the two tilted responses, where no step-wise normalization intervenes. κ ≈ 1 is what the two-state form predicts, but it would also follow if one slow mode dom"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The third energy changes with temperature; for it the relation b = mΔE above does not hold, and we report its ρ_eq, 0.21–0.26, only for completeness."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "U is singled out among energies only because the probability of a whole text at T = 1 is exactly exp(−U)."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "only",
+    "sentence": "The logits are fixed only up to a constant per step, which plain softmax sampling and the additive penalty do not see; the multiplicative penalty, which uses the sign and size of the logits, does."
+   }
+  ],
+  "L2 文中のコロン（図表の説明と太字の見出しは除く）": [
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": ":",
+    "sentence": "Repetition reinforces itself: the more often a phrase has been repeated, the more likely it is to be repeated again [2206.02369]."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": ":",
+    "sentence": "The label has hysteresis: a step enters the repetitive state when the fraction reaches 1/2 and leaves it when the fraction falls below 1/4 (Appendix A)."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": ":",
+    "sentence": "Q is its compensator, the sum of the probabilities of choosing a candidate given the text so far: each q_t is fixed by the text before step t, and N − Q has mean zero."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": ":",
+    "sentence": "The first test, on the 40 articles from which h* had been computed, was inconclusive: its intervals at h* and at 2h* both reached just above 1.25 (Appendix F3)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": ":",
+    "sentence": "Per-model intervals were too wide to decide each model: two of the seven intervals of the replication, and neither of those of the larger models, lay inside the range (Table I)."
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "We used nine open base models: Pythia-410M and Pythia-1.4B (EleutherAI/pythia-410m, EleutherAI/pythia-1.4b), GPT-Neo-1.3B (EleutherAI/gpt-neo-1.3B), SmolLM2-1.7B (HuggingFaceTB/SmolLM2-1.7B), Qwen2.5-1.5B and Qwen2.5-7B "
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "The latest commits of all nine repositories predate our runs, so the runs used these revisions: pythia-410m 9879c9b, pythia-1.4b fedc38a, gpt-neo-1.3B dbe59a7, SmolLM2-1.7B effd688, Qwen2.5-1.5B 8faed76, Qwen2.5-7B d1497"
+   },
+   {
+    "sec": "Exponential tilting",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "For these comparisons, covariances were computed within articles: for each article, the covariance over its S = 4 samples with divisor S − 1, averaged with equal weight over articles."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "In an exploratory check with a rule fixed beforehand, 10,000 resamples with five other seeds gave interval ends within 0.01 of each other and within 0.03 of the registered ones, and bias-corrected and accelerated (BCa) i"
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Per-model departures were also compared between the first test and the replication, which used different articles: the difference in ln ρ excluded zero only for Pythia-1.4B, +0.32 (0.05–0.56)."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "That check was later found not to apply to ρ: it compared the derivative with the slope of the true states of the synthetic process, whereas ρ counts both the realized and the predicted change with the same labeling, for"
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Shorter dwell times were excluded because the 32-token window and the hysteresis delay exits: an exit needs the windowed fraction to fall from 1/2 to below 1/4, which takes at least nine steps, and we placed the cut-off "
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Position may also matter: the mean position of the steps at risk was 302–336 in the shorter bin and 363–386 in the longer one, where K is larger."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Both arms were undecided: the median ratio was 1.17 (0.95–1.30) at h* and 1.10 (0.97–1.30) at 2h*."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "This test was generated independently of the design runs: for the two models that shared six temperatures with them, no unpenalized continuation of the test repeated a design continuation token for token."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "The control arm and the decision rule were those of the preregistered replication: 120 articles, the ratio of realized to predicted change in ln K, and the bootstrap interval of the median within 0.8–1.25."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "The user turn was \"Continue this news article:\" followed by the first 64 tokens of the article."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "If there were several such pairs, we took the one nearest a guide fixed beforehand: the design T_× for the unpenalized arm and T* for the penalized arm."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Multiplying the measured slope by h* gives the shift that the design data implied: 0.99, 1.33, 1.07, 1.25, 1.05, 1.64 and 0.97 times the intended 0.10, in the order of Table I. h* had instead been set with ḡ, the average"
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Shorter texts kept more: 1.38% (1.25–1.51) for 384 tokens and 1.79% (1.63–1.94) for 256 tokens."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "**Relaxation time.** Before computing τ (Table II) we fixed how to read s_pen τ across the seven smaller models: a coefficient of variation below 0.3 would count as consistent with the reading that s_pen is about one ove"
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "It repeated the design runs of F7 on three other kinds of text, for four of the smaller models: Pythia-1.4B, SmolLM2-1.7B, Qwen2.5-1.5B and BLOOM-1.1B."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Code could not be measured: in all four models the unpenalized T_× lay between 1.2 and 1.7, far above the sampled range."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Single temperatures were imprecise: the half-width of the interval of the difference between realized and predicted change had a median of 39% of the prediction."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "We also tried four other rules: the unpenalized arm alone, at least five or at least twenty switches, and choosing again in every resample."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "None changed the set of temperatures for any model: every model used all seven temperatures of its grid, every temperature had at least twenty switches of each kind in both arms, and no resample changed the set."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "Over several temperatures we sum numerator and denominator with the weights of the equilibrium prediction g_C above: s_temp = Σ_u g_C(T_u)/Σ_u g_C^tilt(T_u)."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "To see how the two-state model depends on the energy, we recomputed ρ_eq with ΔE from three energies: U = −log p at T = 1, the logits −z, and T times −log p at the sampling temperature."
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "All code, the dated documents that fixed each test and analysis, the predictions recorded before each test and the summary results are available at https://github.com/chichichi2001/logit-thermo-public and archived at htt"
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "All code, the dated documents that fixed each test and analysis, the predictions recorded before each test and the summary results are available at https://github.com/chichichi2001/logit-thermo-public and archived at htt"
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": ":",
+    "sentence": "The archive also holds, for every continuation used in the tests, the per-step quantities from which the results were computed: the candidate indicator c_t, the probability q_t, the repeat marks and the four counts, with"
+   }
+  ],
+  "L2 否定と対比（not X but Y / rather than）": [
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": ", not exp",
+    "sentence": "The probability of a text is then, in general, not exp(−U(x)/T)/Z(T) for an additive energy U that is independent of T."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": ", not distinct",
+    "sentence": "The two states are a labeling, not distinct phases."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": ", not on",
+    "sentence": "The prediction depends on the signed difference between each candidate indicator c_t and the model's probability q_t of choosing a candidate, not on the number of candidates chosen alone."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "rather than",
+    "sentence": "All prospective tests used English news articles, base models of up to 7.6 billion parameters and one family of labelings, with sampling rather than greedy or beam decoding, to which the score does not apply."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": ", not models",
+    "sentence": "The additive, multiplicative and larger-model tests share the same 120 articles, and the bootstrap intervals resample articles, not models."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": ", not line",
+    "sentence": "They were checked by tests, an independent reimplementation and other AI instances, not line by line by the author (Appendix E)."
+   },
+   {
+    "sec": "Temperature identity and the choice of energy",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "Defining s_temp from this local identity instead of the straight-line slope b changed its median over the seven smaller models from 1.82% to 1.85%."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "Resampling the two arms independently instead of together widened the interval of the replication about twofold, to 0.90–1.24."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "rather than",
+    "sentence": "Matching candidates on two preceding tokens rather than three lets the penalty act already at the step where a repetition would start, and keeps the events that define the states distinct from the events the penalty acts"
+   },
+   {
+    "sec": "Code and AI assistance",
+    "part": "appendix",
+    "frag": ", not by",
+    "sentence": "The derivations of Sec. III and Appendices G and H were likewise written by an AI assistant and checked by other AI instances, not by the author."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "T is chosen with T_× from the straight-line fit; with the interpolated crossing of Appendix F6 it would be 0.57 instead of 0.62 for Pythia-1.4B and 0.55 instead of 0.60 for Qwen2.5-7B, and the same for the other seven mo"
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "T is chosen with T_× from the straight-line fit; with the interpolated crossing of Appendix F6 it would be 0.57 instead of 0.62 for Pythia-1.4B and 0.55 instead of 0.60 for Qwen2.5-7B, and the same for the other seven mo"
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ", not for",
+    "sentence": "Per model it rose at 2h* for GPT-Neo-1.3B and GPT-2-XL (below), so linearity up to 2h* holds for the median, not for every model."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ", not a",
+    "sentence": "An exactly solvable Markov model of copying, fitted earlier to two other language models, gave g₂/g of −0.06 to −0.13, which would raise the first-order ratio by a few percent at these penalties; this is a candidate expl"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "Over resamples of the design articles the standard deviation of ḡ was 0.21–0.32 per unit of h, and that of the measured slope 0.11–0.13, but the slope needs two penalized arms instead of one unpenalized arm."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "rather than",
+    "sentence": "The upper end in the first half, 0.8003, just failed the rule fixed beforehand, an upper end below 0.8; we read this as a boundary case rather than a difference between the halves."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": ", not a",
+    "sentence": "The per-temperature comparison of Fig. S2b was a record, not a decision."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "instead of",
+    "sentence": "The two differ in articles and penalty strength, and ρ_eq sums over temperatures instead of taking a median."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": ", not its",
+    "sentence": "The rank correlation between s_pen and 1/τ over the same models was only 0.11, so the reading fixes the size of s_pen, not its order across models."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ", not of",
+    "sentence": "Whether the two-state model overstates the effect of a penalty is therefore a property of the chosen energy, not of the sampler."
+   }
+  ],
+  "L5 exactly": [
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "exactly",
+    "sentence": "The response of such a process to a change in its transition probabilities is given exactly by a likelihood-ratio, or score-function, formula [Glynn 1990; Williams 1992; Warren & Allen 2012]."
+   },
+   {
+    "sec": "A. Two states and the crossover temperature",
+    "part": "main",
+    "frag": "exactly",
+    "sentence": "There, the fraction of repeats in a 32-token window has a high peak near zero, a narrow peak at exactly one and a shallow trough in between (Fig. 1b)."
+   },
+   {
+    "sec": "Exponential tilting",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "The step-wise penalty has σ = N − Q, so g = g_N − g_Q exactly when all three use the same covariance convention."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "The high side is small because continuations start in the ordinary state, and most of its mass lies in the bin at exactly one."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "An exactly solvable Markov model of copying, fitted earlier to two other language models, gave g₂/g of −0.06 to −0.13, which would raise the first-order ratio by a few percent at these penalties; this is a candidate expl"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "The penalized crossing lay within 0.04 of T* for seven models, BLOOM-1.1B at exactly +0.040."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "The deviation splits exactly into three parts."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "We checked this exactly in a toy model with five tokens and five steps, for both penalties and both truncations, but not with language models."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "We use U_t = −log p_t at T = 1, the energy that makes each step exactly Boltzmann at T = 1."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "exactly",
+    "sentence": "U is singled out among energies only because the probability of a whole text at T = 1 is exactly exp(−U)."
+   }
+  ],
+  "L3 35 語を超える文": [
+   {
+    "sec": "I. Introduction",
+    "part": "main",
+    "frag": "36 語",
+    "sentence": "Language-model decoding has been steered by estimates of a future reward or attribute [Yang & Klein 2021; Zhao et al. 2024], and Kempton and Burrell described how local normalization distorts temperature and truncation r"
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "36 語",
+    "sentence": "We write c_t = 1 if the sampled token is a candidate and c_t = 0 otherwise, and q_t for the total probability that the model, at temperature T and without the penalty, assigns to the candidates."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "38 語",
+    "sentence": "Applied to the four counts that define K (entries, exits, and ordinary and repetitive steps; Appendix A), this gives the exact derivative g(T) = ∂ ln K/∂h, where K is defined by ratios of expected counts (Appendix B)."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "36 語",
+    "sentence": "Its step probabilities are multiplied by exp(hc_t/T) and by the expected future factor E[exp(hN_{>t}/T) | x_≤t], with N_{>t} the number of candidates chosen after step t, and renormalized."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "43 語",
+    "sentence": "The criterion we had fixed beforehand, a coefficient of variation of s_pen τ below 0.3, would have been met even if the two were unrelated (Appendix F8). τ also depends on the labeling, and the states do not form a stati"
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": "36 語",
+    "sentence": "For the steps with q_t between 0.1 and 0.9, the share of the response divided by the share of the variance had a median of 0.96 (0.91–0.98), inside the range 0.8–1.25 fixed beforehand but slightly below one (exploratory;"
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "45 語",
+    "sentence": "The variance of the log-weight grows with the length of the text, as (h/T)² Σ_t q_t(1 − q_t) to second order. ln K is instead built from counts summed over many steps and texts, each of which a single choice changes only"
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": "54 語",
+    "sentence": "We used nine open base models: Pythia-410M and Pythia-1.4B (EleutherAI/pythia-410m, EleutherAI/pythia-1.4b), GPT-Neo-1.3B (EleutherAI/gpt-neo-1.3B), SmolLM2-1.7B (HuggingFaceTB/SmolLM2-1.7B), Qwen2.5-1.5B and Qwen2.5-7B "
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": "50 語",
+    "sentence": "The latest commits of all nine repositories predate our runs, so the runs used these revisions: pythia-410m 9879c9b, pythia-1.4b fedc38a, gpt-neo-1.3B dbe59a7, SmolLM2-1.7B effd688, Qwen2.5-1.5B 8faed76, Qwen2.5-7B d1497"
+   },
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": "39 語",
+    "sentence": "M₀ and M₁ are the numbers of pairs of consecutive labeled steps whose first step is ordinary or repetitive, 480 pairs per continuation. n₀₁ is the number of switches from ordinary to repetitive, and n₁₀ the number of swi"
+   },
+   {
+    "sec": "Repeat candidates and penalties",
+    "part": "appendix",
+    "frag": "43 語",
+    "sentence": "The additive penalty adds h to their logits before division by the temperature, so that negative h discourages repetition. q_t is the probability of the candidate set under softmax(z/T), and c_t indicates whether the sam"
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "54 語",
+    "sentence": "In an exploratory check with a rule fixed beforehand, 10,000 resamples with five other seeds gave interval ends within 0.01 of each other and within 0.03 of the registered ones, and bias-corrected and accelerated (BCa) i"
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "36 語",
+    "sentence": "It was set before the first test, from the agreement already seen on the design runs at h = ±0.3, with medians of 1.00 and 0.96, and from a synthetic check in which the labeling raised the ratio by about 10%."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "43 語",
+    "sentence": "That check was later found not to apply to ρ: it compared the derivative with the slope of the true states of the synthetic process, whereas ρ counts both the realized and the predicted change with the same labeling, for"
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "38 語",
+    "sentence": "Matching candidates on two preceding tokens rather than three lets the penalty act already at the step where a repetition would start, and keeps the events that define the states distinct from the events the penalty acts"
+   },
+   {
+    "sec": "Appendix D: Importance reweighting",
+    "part": "appendix",
+    "frag": "47 語",
+    "sentence": "The empirical variance of log w agreed with the second-order estimate, the mean of (h/T)² Σ_t q_t(1 − q_t), to within 20% for five models, and was 2.4 and 2.5 times larger for SmolLM2-1.7B and GPT-2-XL, the two models wi"
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "36 語",
+    "sentence": "In the repetitive and the ordinary state it was Pythia-410M 94% and 20%, Pythia-1.4B 94% and 20%, GPT-Neo-1.3B 94% and 19%, SmolLM2-1.7B 92% and 21%, Qwen2.5-1.5B 94% and 17%, GPT-2-XL 93% and 19%, BLOOM-1.1B 93% and 17%"
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "39 語",
+    "sentence": "Shorter dwell times were excluded because the 32-token window and the hysteresis delay exits: an exit needs the windowed fraction to fall from 1/2 to below 1/4, which takes at least nine steps, and we placed the cut-off "
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "66 語",
+    "sentence": "The difference between the medians at 2h* and at h* was −0.07 (−0.12 to 0.14); per model it excluded zero only for GPT-Neo-1.3B, +0.14 (0.04–0.24), and GPT-2-XL, +0.15 (0.005–0.47) (exploratory, record). **Second-order t"
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "45 語",
+    "sentence": "An exactly solvable Markov model of copying, fitted earlier to two other language models, gave g₂/g of −0.06 to −0.13, which would raise the first-order ratio by a few percent at these penalties; this is a candidate expl"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "38 語",
+    "sentence": "**Fraction of repeats.** We also predicted the change in the fraction of the 512 steps marked as repeats, with the prediction h* Cov(O, N − Q)/T for this fraction O in place of the one for ln K."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "41 語",
+    "sentence": "For the straight-line comparison, the question and decision rule were fixed in a dated document before T_× was computed for these runs; for the interpolated crossing, a rule was fixed before it was computed, and the quad"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "51 語",
+    "sentence": "Multiplying the measured slope by h* gives the shift that the design data implied: 0.99, 1.33, 1.07, 1.25, 1.05, 1.64 and 0.97 times the intended 0.10, in the order of Table I. h* had instead been set with ḡ, the average"
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "45 語",
+    "sentence": "**Relaxation time.** Before computing τ (Table II) we fixed how to read s_pen τ across the seven smaller models: a coefficient of variation below 0.3 would count as consistent with the reading that s_pen is about one ove"
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "37 語",
+    "sentence": "The first question compared the slope of T_× in h with the apparent slope that the labeling itself produces under the penalty, measured on a synthetic process without switching (at most 0.02 per unit h), for two labeling"
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "37 語",
+    "sentence": "Of the 49 model–temperature pairs of the smaller models, 4 had an interval excluding zero, 8% against the 5% expected by chance, all four with the realized change below the predicted one, and of the 14 pairs of the large"
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "37 語",
+    "sentence": "None changed the set of temperatures for any model: every model used all seven temperatures of its grid, every temperature had at least twenty switches of each kind in both arms, and no resample changed the set."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": "71 語",
+    "sentence": "If no token lies on the boundary of S_t at h = 0, the set is fixed for small h and the score of Sec. III A holds with q_t replaced by the probability of the repeat candidates after renormalization within S_t; for min-p w"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "36 語",
+    "sentence": "A penalty h per chosen candidate would shift the free-energy difference per unit by h mΔc, where Δc is the rate of choosing a candidate in the repetitive state minus that in the ordinary state."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "38 語",
+    "sentence": "The prediction is right only if κ s_pen = s_temp. κ compares the two tilted responses, where no step-wise normalization intervenes. κ ≈ 1 is what the two-state form predicts, but it would also follow if one slow mode dom"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "42 語",
+    "sentence": "**Prediction of the shift of T_× and of ln K.** Applying the implicit-function theorem to ln K = 0 under the two-state model, the analogue of the Clausius–Clapeyron relation, gives the shift of the crossover temperature "
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "37 語",
+    "sentence": "The ratio reported below is ρ_eq = Σ_u Δ(T_u)/Σ_u h* g_C(T_u), over the same usable temperatures u and with the same bootstrap as the prospective tests (Appendix C). ρ_eq itself was not registered."
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": "36 語",
+    "sentence": "All code, the dated documents that fixed each test and analysis, the predictions recorded before each test and the summary results are available at https://github.com/chichichi2001/logit-thermo-public and archived at htt"
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": "42 語",
+    "sentence": "The archive also holds, for every continuation used in the tests, the per-step quantities from which the results were computed: the candidate indicator c_t, the probability q_t, the repeat marks and the four counts, with"
+   }
+  ],
+  "L2 文末につく -ing の句": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": ", adjusting",
+    "sentence": "We call one round of computing the next-token logits, adjusting them, normalizing them and sampling one token a step."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": ", normalizing",
+    "sentence": "We call one round of computing the next-token logits, adjusting them, normalizing them and sampling one token a step."
+   },
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": ", overlapping",
+    "sentence": "We marked step t of a continuation as a repeat if the four tokens ending at t had occurred, in the same order, ending at an earlier step of the same continuation, overlapping occurrences included."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": ", switching",
+    "sentence": "Middle/side: the middle per bin over the smaller side, switching continuations only; the bimodality criterion was a value below 0.2."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ", doubling",
+    "sentence": "For the median over models, doubling the penalty barely changed the ratio."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": ", keeping",
+    "sentence": "We recomputed the counts, Δc, ΔE, b and g separately for the first and second halves of the labeled steps, as in F2, keeping σ over the whole text."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ", adding",
+    "sentence": "Because each step's expectation is subtracted, adding to U_t any constant that depends only on the history, for example replacing U_t by −z_t, leaves this score unchanged."
+   }
+  ],
+  "L5 We read this as / we take": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "We call",
+    "sentence": "We call one round of computing the next-token logits, adjusting them, normalizing them and sampling one token a step."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "We call",
+    "sentence": "We call the temperature at which K = 1 the crossover temperature T_×."
+   },
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "We call",
+    "sentence": "We call these the usable temperatures."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "We call",
+    "sentence": "We call T* = T_× − 0.10 the design temperature."
+   },
+   {
+    "sec": "Appendix F: Exploratory analyses and supplementary results",
+    "part": "appendix",
+    "frag": "We call",
+    "sentence": "We call an analysis preregistered if its procedure, code and decision rule were committed in a dated document before its data were generated or opened."
+   },
+   {
+    "sec": "Appendix F: Exploratory analyses and supplementary results",
+    "part": "appendix",
+    "frag": "We call",
+    "sentence": "We call it exploratory if it was defined after the data of the prospective tests had been analyzed."
+   }
+  ],
+  "L5 thus/therefore/so（まとめ）": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "therefore",
+    "sentence": "Each label therefore uses up to 15 later tokens."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "therefore",
+    "sentence": "For any statistic O of the text that does not itself depend on h, the response at h = 0 is therefore"
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "therefore",
+    "sentence": "The test therefore asks whether the response is still first order at h*."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "therefore",
+    "sentence": "In an exploratory analysis we therefore replaced the denominator by the prediction made at design time, h ḡ at every usable temperature."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "thus",
+    "sentence": "For ln K, the compensator term thus cancels about 99% of the tilted term."
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "Penalized and unpenalized runs therefore shared their random numbers, which reduces the variance of their difference."
+   },
+   {
+    "sec": "Score-function identity",
+    "part": "appendix",
+    "frag": "Hence",
+    "sentence": "Hence, for any statistic Y of the continuation, with the sum running over all 512 generated steps,"
+   },
+   {
+    "sec": "Appendix D: Importance reweighting",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "One standard deviation of log w thus corresponds to a factor of six to more than a hundred in w, and no small set of samples per article can balance them."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "The shape described in Sec. IV A is therefore present, but it does not meet the bimodality criterion fixed in advance."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "The balance thus moves toward repetition along a text, and K is an average over positions."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "hence",
+    "sentence": "The difference between the medians at 2h* and at h* was −0.07 (−0.12 to 0.14); per model it excluded zero only for GPT-Neo-1.3B, +0.14 (0.04–0.24), and GPT-2-XL, +0.15 (0.005–0.47) (exploratory, record). **Second-order t"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "A single design-time constant thus predicted the median change on new articles about as well as the test's own g(T) did."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "GPT-Neo-1.3B was therefore tested at k = 2 only, and every decision used the other six models."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "Thus",
+    "sentence": "Thus it sat near the upper edge of the test grid, where a straight line fitted over the whole grid is least accurate."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "The largest overshoot, for GPT-2-XL, was thus visible in the design data and follows from using a temperature-averaged derivative where g changes with temperature; BLOOM-1.1B, the one model with g(T_×) below ḡ, undershot"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "At the design temperature the penalized ln K was thus close to its target."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "The overshoot of T_× therefore does not come from a misprediction of ln K at T*."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "Its intervals for R were therefore very wide, and the overall decision was undecided."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "The choice of usable temperatures therefore did not affect the result, and the rule fixed beforehand recorded this question as undecided because no alternative rule could be tested."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "Hence",
+    "sentence": "Hence the equilibrium prediction is"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "The van 't Hoff slope b = ∂ ln K/∂β, the slope of ln K against 1/T, measures this step-wise response to temperature, which therefore also subtracts a compensator."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "hence",
+    "sentence": "Adding to U_t a constant that depends on the history changes ΔE, b_tilt, κ and s_temp, and hence g_C, but not g, s_pen or b."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "thus",
+    "sentence": "The two-state model thus overstated the effect by about 45%, except for GPT-2-XL and Mistral-7B-v0.3, where ρ_eq was close to one (Tables H1 and F9)."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "therefore",
+    "sentence": "Whether the two-state model overstates the effect of a penalty is therefore a property of the chosen energy, not of the sampler."
+   }
+  ],
+  "L2 三つ並べ（A, B and C）": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "step, the entry rate, and switches",
+    "sentence": "At each temperature we count switches into the repetitive state per ordinary step, the entry rate, and switches out of it per repetitive step, the exit rate."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "entries, exits, and ordinary",
+    "sentence": "Applied to the four counts that define K (entries, exits, and ordinary and repetitive steps; Appendix A), this gives the exact derivative g(T) = ∂ ln K/∂h, where K is defined by ratios of expected counts (Appendix B)."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "articles, as in the tests, and the",
+    "sentence": "In the mixed convention, the numerator g used covariances pooled over all articles, as in the tests, and the denominator stayed within articles."
+   }
+  ],
+  "L3 6 語以下の短い文": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "6 語",
+    "sentence": "We call these the usable temperatures."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "1 語",
+    "sentence": "**A."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "3 語",
+    "sentence": "Summing over steps,"
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "1 語",
+    "sentence": "**B."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "1 語",
+    "sentence": "**C."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "6 語",
+    "sentence": "Both are developed in Appendix H."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "6 語",
+    "sentence": "We did not test this reading."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "5 語",
+    "sentence": "All of these are exploratory."
+   },
+   {
+    "sec": "Models, prompts and sampling",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "The two sets do not overlap."
+   },
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "Fits used seven temperatures spaced by 0.05."
+   },
+   {
+    "sec": "Repeat candidates and penalties",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "The penalty acts on repeat candidates."
+   },
+   {
+    "sec": "Compute",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "All analyses ran on CPU."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "No model met this criterion."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "Longer windows gave slightly smaller ratios."
+   },
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "Both analyses here were exploratory."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "4 語",
+    "sentence": "This test was preregistered."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "Per-model intervals were wide (Table F4)."
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "4 語",
+    "sentence": "This analysis was exploratory."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "Divisors above 3 were not run."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "GPT-Neo-1.3B at k = 2 (θ = 2.27) gave 1.64 (1.11–3.59)."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "We then interpolated linearly in 1/T."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "4 語",
+    "sentence": "Appendix H uses ρ_eq."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "4 語",
+    "sentence": "One comparison was preregistered."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "4 語",
+    "sentence": "This experiment was preregistered."
+   },
+   {
+    "sec": "F9. Other genres",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "Two questions were fixed in advance."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "5 語",
+    "sentence": "Hence the equilibrium prediction is"
+   },
+   {
+    "sec": "Data and code availability",
+    "part": "appendix",
+    "frag": "6 語",
+    "sentence": "Generated continuations are available on request."
+   }
+  ],
+  "L1 Kobak の語": [
+   {
+    "sec": "II. Setup",
+    "part": "main",
+    "frag": "within",
+    "sentence": "T_× depends on the labeling and on the length of the continuation, so we compare it only within a fixed labeling and length."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "across",
+    "sentence": "A standard deviation of the true ratios across models above about 12% was excluded (Appendix C)."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "within",
+    "sentence": "The derivative at each model's crossover agreed to within a quarter with the slope of T_× measured on the design runs."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "across",
+    "sentence": "Across the smaller models s_pen and 1/τ were not ordered alike."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": "within",
+    "sentence": "These fractions use covariances within articles; pooling the numerator over articles, as in the tests, changes them little (Appendix F8)."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "within",
+    "sentence": "This held for the median of seven models, whose differences were within sampling noise, and the prediction also carried over to the fraction of repeats."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "within",
+    "sentence": "It also carries over to truncated sampling such as min-p [2407.01082] or top-p [1904.09751] if q_t is taken within the truncated set and the set does not change (Appendix G)."
+   },
+   {
+    "sec": "Exponential tilting",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "For these comparisons, covariances were computed within articles: for each article, the covariance over its S = 4 samples with divisor S − 1, averaged with equal weight over articles."
+   },
+   {
+    "sec": "Temperature identity and the choice of energy",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The rescored U and q agreed with the values recorded during generation to within 0.0015 and 0.0007 at most."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "In an exploratory check with a rule fixed beforehand, 10,000 resamples with five other seeds gave interval ends within 0.01 of each other and within 0.03 of the registered ones, and bias-corrected and accelerated (BCa) i"
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "In an exploratory check with a rule fixed beforehand, 10,000 resamples with five other seeds gave interval ends within 0.01 of each other and within 0.03 of the registered ones, and bias-corrected and accelerated (BCa) i"
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "We took the covariance of ln ρ across the seven models from 10,000 joint bootstrap resamples of the articles and formed a generalized Cochran statistic about the weighted mean."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "The upper 95% bound on the standard deviation of ln ρ across models, from the Q-profile, was 0.118, about 12% in the ratio."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The prediction was confirmed if the 95% interval of the statistic lay within 0.8 to 1.25."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "The counts are then comparable across temperatures and penalties, and the score is a sum over a fixed number of steps."
+   },
+   {
+    "sec": "Appendix D: Importance reweighting",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The empirical variance of log w agreed with the second-order estimate, the mean of (h/T)² Σ_t q_t(1 − q_t), to within 20% for five models, and was 2.4 and 2.5 times larger for SmolLM2-1.7B and GPT-2-XL, the two models wi"
+   },
+   {
+    "sec": "Code and AI assistance",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "Later scripts had to reproduce earlier recorded results to within 10⁻⁹, and runs that had been inadvertently repeated on separate GPUs agreed bit for bit."
+   },
+   {
+    "sec": "Supplementary figures",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The points within a model are not independent."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The median ratio of the seven smaller models stayed within 0.8–1.25 under all eight other labelings, with points from 0.96 to 1.08 (Table F2)."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The control arm and the decision rule were those of the preregistered replication: 120 articles, the ratio of realized to predicted change in ln K, and the bootstrap interval of the median within 0.8–1.25."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The penalized crossing lay within 0.04 of T* for seven models, BLOOM-1.1B at exactly +0.040."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "On the design runs this predicted slope agreed with the measured slope of Fig. S1 to within a quarter in every smaller model; for GPT-2-XL they were 0.206 and 0.208."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The points within a model are not independent."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The baseline uses covariances within articles and texts of 512 tokens (Appendix B)."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "In the mixed convention, the numerator g used covariances pooled over all articles, as in the tests, and the denominator stayed within articles."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "Before computing, we called s_pen \"about 1%\" if the interval of the median lay within 0.5–2%."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "This is expected, because N − Q has mean zero within each article."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "All three medians that had a decision rule fell within 0.5–2%."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "**Relaxation time.** Before computing τ (Table II) we fixed how to read s_pen τ across the seven smaller models: a coefficient of variation below 0.3 would count as consistent with the reading that s_pen is about one ove"
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "The rank correlation between s_pen and 1/τ over the same models was only 0.11, so the reading fixes the size of s_pen, not its order across models."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "**Table F11 | Surviving fraction s_pen (%) under different conventions.** Baseline: covariances within articles, 512 tokens."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "across",
+    "sentence": "For each model we fitted a straight line to the ratio of realized to predicted change against temperature and took its change across the usable temperatures."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "Computing the difference within the same resamples includes the uncertainty of both."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "Truncated samplers such as min-p [2407.01082] and top-p [1904.09751] select a set S_t of allowed tokens and renormalize within it."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "If no token lies on the boundary of S_t at h = 0, the set is fixed for small h and the score of Sec. III A holds with q_t replaced by the probability of the repeat candidates after renormalization within S_t; for min-p w"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "within",
+    "sentence": "The penalty is usually cancelled slightly more, s_pen/s_temp = 0.47–0.87 except for GPT-2-XL (1.04), and κ was within 10% of one except for the two Qwen models."
+   }
+  ],
+  "L5 nevertheless/however": [
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": "instead",
+    "sentence": "Step-wise penalty versus exponential tilting.** A penalty that acted on the text as a whole would instead reweight it."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": "however",
+    "sentence": "Individual models, however, ranged from 0.5 to 2.4 times the intended shift, and no per-model interval lay inside the range (Appendix F6)."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": "instead",
+    "sentence": "The variance of the log-weight grows with the length of the text, as (h/T)² Σ_t q_t(1 − q_t) to second order. ln K is instead built from counts summed over many steps and texts, each of which a single choice changes only"
+   },
+   {
+    "sec": "Temperature identity and the choice of energy",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "Defining s_temp from this local identity instead of the straight-line slope b changed its median over the seven smaller models from 1.82% to 1.85%."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "Resampling the two arms independently instead of together widened the interval of the replication about twofold, to 0.90–1.24."
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "T is chosen with T_× from the straight-line fit; with the interpolated crossing of Appendix F6 it would be 0.57 instead of 0.62 for Pythia-1.4B and 0.55 instead of 0.60 for Qwen2.5-7B, and the same for the other seven mo"
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "T is chosen with T_× from the straight-line fit; with the interpolated crossing of Appendix F6 it would be 0.57 instead of 0.62 for Pythia-1.4B and 0.55 instead of 0.60 for Qwen2.5-7B, and the same for the other seven mo"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "Here we used instead the prediction made at design time, h ḡ at every usable temperature."
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "Over resamples of the design articles the standard deviation of ḡ was 0.21–0.32 per unit of h, and that of the measured slope 0.11–0.13, but the slope needs two penalized arms instead of one unpenalized arm."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "Multiplying the measured slope by h* gives the shift that the design data implied: 0.99, 1.33, 1.07, 1.25, 1.05, 1.64 and 0.97 times the intended 0.10, in the order of Table I. h* had instead been set with ḡ, the average"
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "It ranged from 0.53 to 1.26, with a median of 0.73 over nine models. ρ_eq instead builds the equilibrium prediction at each temperature from the unpenalized arm of the same test, in ln K."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": "instead",
+    "sentence": "The two differ in articles and penalty strength, and ρ_eq sums over temperatures instead of taking a median."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "yet",
+    "sentence": "The first 256 tokens also come from the part of a text where repetition has not yet developed, so length and position are confounded."
+   }
+  ],
+  "L2 セミコロン（文献・括弧・図表の説明の中は除く）": [
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": ";",
+    "sentence": "Reweighting each whole text by exp(hN/T) and renormalizing is called exponential tilting in statistics; in statistical physics the result is a tilted ensemble of trajectories."
+   },
+   {
+    "sec": "III. Theory",
+    "part": "main",
+    "frag": ";",
+    "sentence": "It needs an energy for each step, which the sampler does not define, and its prediction changes with that choice; the identities above do not."
+   },
+   {
+    "sec": "B. Predicting a penalty before applying it",
+    "part": "main",
+    "frag": ";",
+    "sentence": "Each test compares the realized change in ln K at h* with the first-order prediction h* g(T); both are summed over the usable temperatures before their ratio is taken."
+   },
+   {
+    "sec": "C. Step-wise normalization cancels almost all of the tilted response",
+    "part": "main",
+    "frag": ";",
+    "sentence": "These fractions use covariances within articles; pooling the numerator over articles, as in the tests, changes them little (Appendix F8)."
+   },
+   {
+    "sec": "D. Where the penalty acts",
+    "part": "main",
+    "frag": ";",
+    "sentence": "Proportionality to the variance is not implied by the form of the score; it holds if one unit of c_t − q_t moves ln K about equally at every step."
+   },
+   {
+    "sec": "V. Discussion",
+    "part": "main",
+    "frag": ";",
+    "sentence": "Texts had 512 tokens, without truncation and with the end-of-sequence token masked; runs on novels, scientific papers and code are in Appendix F9."
+   },
+   {
+    "sec": "Notation",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "A repeat ends a four-token sequence that occurred earlier in the text; repeats define the states."
+   },
+   {
+    "sec": "Notation",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "A repeat candidate has followed the current last two tokens earlier in the text; the penalty acts on candidates."
+   },
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "For the design of the seven smaller models these were 0.40 to 0.70; the prospective tests used grids centered on each model's design temperature (Appendix C)."
+   },
+   {
+    "sec": "Score-function identity",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The identity is exact; the prediction of a finite penalty from it is first order."
+   },
+   {
+    "sec": "Temperature identity and the choice of energy",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "For six models it lay between 0.94 and 1.12; for BLOOM-1.1B it was 0.82 (0.72–0.96)."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "Pooling the first test and the replication, 160 articles at h*, gave a median ratio of 1.09 (0.98–1.15); this was a record and was not used for any decision."
+   },
+   {
+    "sec": "Prospective tests",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "One post-freeze change was made to analysis code, a missing import statement in the script for the whole-sequence analysis; it did not change any computation."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The decision used the median over the seven smaller models so that no single model could decide it; for the two larger models we used the mean."
+   },
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The length of 512 tokens was fixed in the first experiments of the project and kept for comparability; s_pen depends on it (Appendix F8)."
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The difference between the medians at 2h* and at h* was −0.07 (−0.12 to 0.14); per model it excluded zero only for GPT-Neo-1.3B, +0.14 (0.04–0.24), and GPT-2-XL, +0.15 (0.005–0.47) (exploratory, record). **Second-order t"
+   },
+   {
+    "sec": "F3. First prospective test",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "An exactly solvable Markov model of copying, fitted earlier to two other language models, gave g₂/g of −0.06 to −0.13, which would raise the first-order ratio by a few percent at these penalties; this is a candidate expl"
+   },
+   {
+    "sec": "F4. Prediction from the design data alone",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "Its intervals resample the 40 design articles, through ḡ, and the 120 test articles separately, with 10,000 resamples; this rule was fixed before the analysis was run."
+   },
+   {
+    "sec": "F5. Multiplicative penalty and instruction-tuned models",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The divisors of 1.1–1.3 common in practice correspond, for these six models, to 1.8 to 14 times the predicted ln θ*; CTRL suggests about 1.2 [1909.05858]."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "For the straight-line comparison, the question and decision rule were fixed in a dated document before T_× was computed for these runs; for the interpolated crossing, a rule was fixed before it was computed, and the quad"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "On the design runs this predicted slope agreed with the measured slope of Fig. S1 to within a quarter in every smaller model; for GPT-2-XL they were 0.206 and 0.208."
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The largest overshoot, for GPT-2-XL, was thus visible in the design data and follows from using a temperature-averaged derivative where g changes with temperature; BLOOM-1.1B, the one model with g(T_×) below ḡ, undershot"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The line fitted on the test grid also lay below the design line there, by 0.08–0.70, in eight models; for BLOOM-1.1B it lay 0.09 above."
+   },
+   {
+    "sec": "F7. Records for the equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The upper end in the first half, 0.8003, just failed the rule fixed beforehand, an upper end below 0.8; we read this as a boundary case rather than a difference between the halves."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "For the individual smaller models at 256 tokens, s_pen ranged from 1.46% to 2.05%; for the two larger models it was 1.08% and 1.30%."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The coefficient of variation of s_pen alone was 0.16 and that of τ 0.09, so the criterion would have been met even for unrelated values; it could not discriminate, and we do not use it as support."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The median difference over the smaller models was −0.04 (−0.11 to −0.002), so the identity put slightly more of the response on the exit rate; for the larger models the mean was −0.03 (−0.11 to 0.05)."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "If no token lies on the boundary of S_t at h = 0, the set is fixed for small h and the score of Sec. III A holds with q_t replaced by the probability of the repeat candidates after renormalization within S_t; for min-p w"
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "with b, ΔE and Δc_T, the value of Δc at temperature T, all measured without the penalty; ΔE is averaged over the usable temperatures."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The same form built from exponential tilting uses b_tilt in place of b; we write it g_C^tilt."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The factorization is an identity, at each temperature and, with each factor a ratio of sums over the usable temperatures, for the sums as well; its content lies in the sizes of the factors."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "What we recorded before each test was r_C, the shift of T_× that this model predicts at h* divided by the intended 0.10; its values are reported with ρ_eq in Appendix F7."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The third energy changes with temperature; for it the relation b = mΔE above does not hold, and we report its ρ_eq, 0.21–0.26, only for completeness."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": ";",
+    "sentence": "The logits are fixed only up to a constant per step, which plain softmax sampling and the additive penalty do not see; the multiplicative penalty, which uses the sign and size of the logits, does."
+   }
+  ],
+  "L2 from X to Y（数でない）": [
+   {
+    "sec": "Repeats, states and rates",
+    "part": "appendix",
+    "frag": "from ordinary to repetitive",
+    "sentence": "M₀ and M₁ are the numbers of pairs of consecutive labeled steps whose first step is ordinary or repetitive, 480 pairs per continuation. n₀₁ is the number of switches from ordinary to repetitive, and n₁₀ the number of swi"
+   }
+  ],
+  "L3 まとめの文頭": [
+   {
+    "sec": "Score-function identity",
+    "part": "appendix",
+    "frag": "Hence",
+    "sentence": "Hence, for any statistic Y of the continuation, with the sum running over all 512 generated steps,"
+   },
+   {
+    "sec": "F6. Shift of the crossover temperature",
+    "part": "appendix",
+    "frag": "Thus",
+    "sentence": "Thus it sat near the upper edge of the test grid, where a straight line fitted over the whole grid is least accurate."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "Hence",
+    "sentence": "Hence the equilibrium prediction is"
+   }
+  ],
+  "L5 both ... and": [
+   {
+    "sec": "Design choices",
+    "part": "appendix",
+    "frag": "both the realized and",
+    "sentence": "That check was later found not to apply to ρ: it compared the derivative with the slope of the true states of the synthetic process, whereas ρ counts both the realized and the predicted change with the same labeling, for"
+   },
+   {
+    "sec": "F1. Labeling checks",
+    "part": "appendix",
+    "frag": "both for all continuations and",
+    "sentence": "This had to hold both for all continuations and for the switching ones alone."
+   },
+   {
+    "sec": "F8. The fraction s_pen against text length and covariance convention",
+    "part": "appendix",
+    "frag": "both numerator and",
+    "sentence": "Pooling both numerator and denominator over articles gave 0.90% (0.79–1.01)."
+   },
+   {
+    "sec": "F10. Per-temperature agreement, the split between the rates, and the choice of temperatures",
+    "part": "appendix",
+    "frag": "both arms, and",
+    "sentence": "None changed the set of temperatures for any model: every model used all seven temperatures of its grid, every temperature had at least twenty switches of each kind in both arms, and no resample changed the set."
+   },
+   {
+    "sec": "Appendix G: Truncated sampling",
+    "part": "appendix",
+    "frag": "both penalties and",
+    "sentence": "We checked this exactly in a toy model with five tokens and five steps, for both penalties and both truncations, but not with language models."
+   },
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "both responses that enter the model are step-wise, and",
+    "sentence": "The factors show why the error is not a factor of 100: both responses that enter the model are step-wise, and their compensators largely cancel."
+   }
+  ],
+  "L5 this is/that is（言いかえ）": [
+   {
+    "sec": "F2. Drift along the text and persistence of repetitive stretches",
+    "part": "appendix",
+    "frag": "This is why",
+    "sentence": "This is why Sec. II treats K as a summary of switching statistics."
+   }
+  ],
+  "L5 what X is Y（擬似分裂文）": [
+   {
+    "sec": "Appendix H: The equilibrium two-state model",
+    "part": "appendix",
+    "frag": "What we recorded before each test was",
+    "sentence": "What we recorded before each test was r_C, the shift of T_× that this model predicts at h* divided by the intended 0.10; its values are reported with ρ_eq in Appendix F7."
+   }
+  ]
+ },
+ "numbers_per_section_sentences": [
+  [
+   "B. Predicting a penalty before applying it",
+   34
+  ],
+  [
+   "V. Discussion",
+   14
+  ],
+  [
+   "II. Setup",
+   10
+  ],
+  [
+   "C. Step-wise normalization cancels almost all of the tilted response",
+   10
+  ],
+  [
+   "D. Where the penalty acts",
+   10
+  ],
+  [
+   "Abstract",
+   4
+  ],
+  [
+   "A. Two states and the crossover temperature",
+   3
+  ]
+ ]
+}

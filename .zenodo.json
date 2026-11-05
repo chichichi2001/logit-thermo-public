@@ -1,7 +1,7 @@
 {
-  "title": "logit-thermo: code, registration documents and results for \"Predicting how repetition penalties act in language models from unpenalized samples\"",
+  "title": "logit-thermo: code, registration documents, results and per-step data for \"A first-order prediction from unpenalized samples of how a repetition penalty changes switching into and out of repetitive text\"",
   "upload_type": "software",
-  "description": "Code, dated registration documents, predictions recorded before each test, and summary results for the manuscript \"Predicting how repetition penalties act in language models from unpenalized samples\". Article texts and generated continuations are not included.",
+  "description": "Code, dated registration documents, predictions recorded before each test, summary results, and per-step quantities (candidate choices, candidate probabilities, repeat marks and counts; no tokens or text) for the manuscript \"A first-order prediction from unpenalized samples of how a repetition penalty changes switching into and out of repetitive text\". Article texts and generated tokens are not included.",
   "creators": [
     {
       "name": "Honda, Chisa",

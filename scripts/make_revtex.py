@@ -311,10 +311,11 @@ def convert(src, dst):
     btex, atex = pd(f'{tmp}/b.md'), pd(f'{tmp}/a.md')
     btex = btex.replace('\\appendix', '\n\\appendix\n')
     btex = tables(btex)
+    btex = re.sub(r'(?<![{\w])(https://[^\s{}]+?)(?=[.,;)]?(\s|$))', r'\\url{\1}', btex)   # 長い URL を行末で折れるように
     pre = r"""\documentclass[aps,prx,onecolumn,superscriptaddress,longbibliography]{revtex4-2}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{amsmath,amssymb,graphicx,booktabs,newunicodechar}
+\usepackage{amsmath,amssymb,graphicx,booktabs,newunicodechar,url}
 \newcommand{\tabrr}{\raggedright\let\\\tabularnewline}
 \newunicodechar{−}{\ensuremath{-}}\newunicodechar{×}{\ensuremath{\times}}\newunicodechar{≤}{\ensuremath{\le}}
 \newunicodechar{≥}{\ensuremath{\ge}}\newunicodechar{≈}{\ensuremath{\approx}}\newunicodechar{±}{\ensuremath{\pm}}
@@ -322,7 +323,7 @@ def convert(src, dst):
 \newunicodechar{κ}{\ensuremath{\kappa}}\newunicodechar{ρ}{\ensuremath{\rho}}\newunicodechar{θ}{\ensuremath{\theta}}
 \newunicodechar{λ}{\ensuremath{\lambda}}\newunicodechar{ν}{\ensuremath{\nu}}\newunicodechar{σ}{\ensuremath{\sigma}}
 \newunicodechar{β}{\ensuremath{\beta}}\newunicodechar{ε}{\ensuremath{\varepsilon}}\newunicodechar{φ}{\ensuremath{\varphi}}
-\newunicodechar{μ}{\ensuremath{\mu}}\newunicodechar{α}{\ensuremath{\alpha}}\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{μ}{\ensuremath{\mu}}\newunicodechar{τ}{\ensuremath{\tau}}\newunicodechar{χ}{\ensuremath{\chi}}\newunicodechar{₂}{\ensuremath{_{2}}}\newunicodechar{α}{\ensuremath{\alpha}}\newunicodechar{√}{\ensuremath{\surd}}
 \newunicodechar{ḡ}{\ensuremath{\bar{g}}}\newunicodechar{…}{\ldots}\newunicodechar{→}{\ensuremath{\to}}
 \newunicodechar{Π}{\ensuremath{\Pi}}\newunicodechar{∞}{\ensuremath{\infty}}\newunicodechar{⁻}{\ensuremath{^{-}}}
 \newunicodechar{⁹}{\ensuremath{^{9}}}\newunicodechar{¹}{\ensuremath{^{1}}}\newunicodechar{’}{'}\newunicodechar{–}{--}\newunicodechar{—}{---}\newunicodechar{′}{\ensuremath{'}}

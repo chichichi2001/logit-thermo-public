@@ -1,0 +1,69 @@
+{
+ "models": {
+  "pythia-410m": {
+   "T_lin": 0.6172702630194223,
+   "T_loc": 0.6079645705373986,
+   "closest_lin": 0.6,
+   "closest_loc": 0.6,
+   "differs": false
+  },
+  "pythia-1.4b": {
+   "T_lin": 0.5985103784396522,
+   "T_loc": 0.5775926904890906,
+   "closest_lin": 0.62,
+   "closest_loc": 0.57,
+   "differs": true
+  },
+  "gpt-neo-1.3b": {
+   "T_lin": 0.6150751405924473,
+   "T_loc": 0.6227142279382313,
+   "closest_lin": 0.63,
+   "closest_loc": 0.63,
+   "differs": false
+  },
+  "smollm2-1.7b": {
+   "T_lin": 0.5341480975854012,
+   "T_loc": 0.5120872437008395,
+   "closest_lin": 0.51,
+   "closest_loc": 0.51,
+   "differs": false
+  },
+  "qwen2.5-1.5b": {
+   "T_lin": 0.621247097511931,
+   "T_loc": 0.6053502349025477,
+   "closest_lin": 0.6,
+   "closest_loc": 0.6,
+   "differs": false
+  },
+  "gpt2-1.5b": {
+   "T_lin": 0.5694250018856684,
+   "T_loc": 0.5061019753114232,
+   "closest_lin": 0.53,
+   "closest_loc": 0.53,
+   "differs": false
+  },
+  "bloom-1b1": {
+   "T_lin": 0.6642215862780847,
+   "T_loc": 0.6514772181520494,
+   "closest_lin": 0.66,
+   "closest_loc": 0.66,
+   "differs": false
+  },
+  "qwen2.5-7b": {
+   "T_lin": 0.6159850710391076,
+   "T_loc": 0.5667391964438364,
+   "closest_lin": 0.6,
+   "closest_loc": 0.55,
+   "differs": true
+  },
+  "mistral-7b-v0.3": {
+   "T_lin": 0.5303004379692139,
+   "T_loc": 0.46544887873309526,
+   "closest_lin": 0.49,
+   "closest_loc": 0.49,
+   "differs": false
+  }
+ },
+ "n_differ": 2,
+ "note": "R11 の訂正：a2_30_run.py は T0[0]（直線の T_×）を内挿の交わりとして読んでいた。A2-28 の T0 は [直線, 内挿, 2 次] の順なので T0[1] で出し直した（結果を開いたあと、記録なので判定には関わらない）。"
+}
