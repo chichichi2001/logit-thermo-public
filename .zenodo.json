@@ -1,0 +1,22 @@
+{
+  "title": "logit-thermo: code, registration documents and results for \"Predicting how repetition penalties act in language models from unpenalized samples\"",
+  "upload_type": "software",
+  "description": "Code, dated registration documents, predictions recorded before each test, and summary results for the manuscript \"Predicting how repetition penalties act in language models from unpenalized samples\". Article texts and generated continuations are not included.",
+  "creators": [
+    {
+      "name": "Honda, Chisa",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0003-8333-7337"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "language models",
+    "repetition penalty",
+    "score function",
+    "likelihood ratio",
+    "sampling",
+    "preregistration"
+  ],
+  "access_right": "open"
+}

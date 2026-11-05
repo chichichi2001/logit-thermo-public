@@ -20,3 +20,6 @@ unmodified files are kept in the private record. The BBC article texts and the g
 redistributed; continuations are available on request.
 
 The code was written by an AI assistant (Claude, Anthropic) under the author's direction; see Appendix E of the paper.
+
+License: code in `scripts/` and `notebooks/` under the MIT License (`LICENSE`); documents, predictions, results, data
+and the manuscript under CC BY 4.0 (`LICENSE-docs.md`).
